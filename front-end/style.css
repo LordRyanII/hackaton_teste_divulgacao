@@ -1,0 +1,86 @@
+
+*{
+    margin: 0%;
+    max-width: 100vw;
+    min-width: 830px;
+}
+
+@font-face { 
+    font-family: roboto; 
+    src: url(font/Roboto-Black.ttf); 
+    font-weight: normal; 
+}
+@font-face{
+    font-family:"sci-fi";
+  src: url('font/ethnocentric\ rg.otf'); 
+  src: url('font/ethnocentric\ rg\ it.otf') format('embedded-opentype'), 
+       url('font/ethnocentric\ rg.otf') format('woff'), 
+       url('font/ethnocentric\ rg.otf')  format('truetype'), 
+}
+
+
+body{
+    background-image: linear-gradient(to left, #4349ef, #fff);
+}
+header > h1{
+    padding-bottom: 15px;
+    background-image: linear-gradient(transparent, purple);
+}
+.container{
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 50px auto;
+    height: 500px;
+    padding-bottom: 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+}
+.content{
+    background-image: url(imagens/mao-celular-modificada.500.png.png);
+    background-repeat: no-repeat;
+    background-position: center left 630px;
+    min-height: 450px;
+    margin-left: 43px auto 300px;
+    flex-wrap: wrap;
+
+}
+
+.text_1{
+    font-family: roboto;
+    font-size: 35px;
+    margin:20px 200px;
+    text-align: left;
+    padding-top: 10px;
+    
+    
+}
+.text_2{
+    text-align: left;
+    font-size: 20px;
+}
+.photo-app{
+    display: flex;
+    text-align: center;
+    margin: left;
+}
+
+#load_1{
+    font-family: sci-fi;
+    color: blue;
+}
+#load_2{
+    font-family: roboto;
+    color: white;
+}
+.button{
+    text-align: center;
+    margin: 45px auto auto 20px;
+}
+.button:hover{
+    color: #4349ef;
+    width: 2px;
+}
+a{
+    text-decoration: none;
+}
